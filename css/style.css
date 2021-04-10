@@ -1,3 +1,159 @@
 body {
-  background-color: white;
+  background-color: #eb7a7a;
+  color: #d11d02;
+
+}
+
+font-family: "Helvetica Narrow", sans-serif;
+
+h1 {
+  font-family: sans-serif, "Helvetica Narrow", "Helvetica";
+  font-size: 30pt;
+}
+
+h2 {
+  font-family: "Helvetica Narrow", sans-serif;
+  font-size: 25pt;
+}
+
+h3 {
+  font-family: "Helvetica Narrow", sans-serif;
+  font-size:23pt;
+}
+
+p {
+  font-family: "Helvetica" , "Arial", sans-serif;
+  font-size: 20pt;
+}
+li {
+  display:inline;
+}
+
+figure {
+  margin:0;
+  border: 1px;
+}
+
+img {
+  padding: 1px;
+  border: 1px solid #000000;
+}
+
+table {
+  border: 1px solid #000;
+}
+
+tr {
+  border: 1px solid #000;
+}
+
+td {
+  border: 1px solid #000;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #d11d02;
+}
+
+a:visited {
+  color: #7c0a02;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #ff0800;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #ff0800;
+}
+
+a:active {
+  background: #Bf0A30;
+  color: #ff0800;
+}
+
+.canada-web-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  grid-template-rows: auto;
+  margin: 20px;
+  padding: 25px 25px 25px 25px;
+
+
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:2;
+  grid-row-end:3;
+  background-color: #eb7a7a;
+
+}
+
+#navigation {
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color: #eb7a7a;
+  font-size: 20pt;
+  font-family: "Helvetica Narrow", sans-serif;
+
+}
+
+
+#introduction {
+  grid-column-start:2;
+  grid-column-end:3;
+  background-color: #eb7a7a;
+}
+
+#geography-title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #eb7a7a;
+}
+
+#geography-content {
+  grid-column-start:2;
+  grid-column-end:3;
+  background-color: #eb7a7a;
+}
+
+#economy-title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #eb7a7a;
+}
+
+#economy-content{
+  grid-column-start:2;
+  grid-column-end:3;
+  background-color: #eb7a7a;
+}
+
+#communicaiton-title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #eb7a7a;
+}
+
+#communication-content{
+  grid-column-start:2;
+  grid-column-end:3;
+  background-color: #;
+}
+
+#source {
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color: #;
 }
