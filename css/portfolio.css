@@ -104,25 +104,25 @@ nav a:hover {
   margin-left: 70px;
 }
 
-#content1 {
+.content1 {
   border: 1px solid #000;
   background-color: #fff;
 
 }
 
-#content2 {
+.content2 {
   border: 1px solid #000;
   background-color: #fff;
 
 }
 
-#content3 {
+.content3 {
   border: 1px solid #000;
   background-color: #fff;
 
 }
 
-#content4 {
+.content4 {
   border: 1px solid #000;
   background-color: #fff;
 
@@ -139,4 +139,54 @@ figure img {
 figcaption {
   font-family: 'Open Sans', sans-serif;
 
+}
+
+#football-caption {
+  font-size: 18px;
+}
+
+#soccer-caption {
+  font-size: 18px;
+}
+
+#tennis-caption {
+  font-size: 17px;
+}
+
+#basketball-caption {
+  font-size: 17px;
+}
+
+#savage-caption {
+  font-size: 18px;
+}
+
+#dababy-caption {
+  font-size: 18px;
+}
+
+#dan-shay-caption {
+  font-size: 20px;
+}
+#maroon-v-caption {
+  font-size: 20px;
+  word-spacing: 1px
+}
+
+#a10-caption {
+  font-size: 16px;
+}
+
+#blue-angels-caption {
+  font-size: 16px;
+  word-spacing: .5px;
+}
+
+#f22-caption {
+  font-size: 18.5px;
+  word-spacing: 1.5px;
+}
+
+#f35-caption {
+  font-size: 17.5px;
 }
