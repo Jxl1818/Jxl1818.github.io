@@ -3,16 +3,16 @@
 
 
 .body-home {
-  background-color: #add8e6;
   background-image: url(../images/fighter-jet-v3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
   margin:0px;
 }
 
 .body-sports {
-  background-color: #add8e6;
+  background-color: #000;
 }
 
 
@@ -106,21 +106,25 @@ nav a:hover {
 
 #content1 {
   border: 1px solid #000;
+  background-color: #fff;
 
 }
 
 #content2 {
   border: 1px solid #000;
+  background-color: #fff;
 
 }
 
 #content3 {
   border: 1px solid #000;
+  background-color: #fff;
 
 }
 
 #content4 {
   border: 1px solid #000;
+  background-color: #fff;
 
 }
 
@@ -130,4 +134,9 @@ figure {
 figure img {
   width: 100%;
   height: auto;
+}
+
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+
 }
