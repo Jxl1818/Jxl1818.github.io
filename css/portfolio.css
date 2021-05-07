@@ -1,47 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
-body {
-  background-color: #fdd;
-  background-image: url(octocat.png)
+
+
+.body-home {
+  background-color: #add8e6;
+  background-image: url(../images/fighter-jet-v3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0px;
 }
 
+.body-sports {
+  background-color: #add8e6;
+}
+
+
+#wrapper {
+  max-width: 1200px;
+  margin-left: 107px;
+}
+
+
 #home-button {
-  margin:0px;
+  margin:0px 0px 0px 20px;
   width: 85px;
-  height: 180px;
+  height: 100px;
   border: 1px solid #000;
   padding-top: 0px;
-  padding-left: 10px;
+  padding-right: 1px;
+  padding-left: 1px;
 
   display: block;
   text-decoration: none;
   font-family: 'PT Sans', sans-serif;
-  font-size: 25px;
   color: #333;
+  font-size: 25px;
 
+}
+
+.jared {
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin: 0px;
+  margin-left: 9px;
+
+}
+
+.lennon {
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin: 0px;
+  margin-left: .5px;
+
+}
+
+.photo {
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  margin: 0px;
+  margin-left: 5.5px
 }
 
 #side-bar {
   height: 100%;
-  width: 160px;
+  width: 165px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #edf;
+  background-color: #fff;
   padding-top: 20px;
+
 }
 
 nav a {
   display: block;
-  color: red;
+  color: #000;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-left: 10px;
+  margin-left: 15px;
+  font-weight: bold;
 
+  font-size: 20px;
 
+  /*
+  margin-top: 0px;
+  margin-bottom: 0px;
+  */
 }
 
 nav a:hover {
-  color:blue;
+  color: #f00;
+}
+
+
+#content-sports {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+
+  grid-gap: 1em;
+  margin-left: 70px;
+}
+
+#sports1 {
+  border: 1px solid #000;
+
+}
+
+#sports2 {
+  border: 1px solid #000;
+
+}
+
+#sports3 {
+  border: 1px solid #000;
+
+}
+
+#sports4 {
+  border: 1px solid #000;
+
+}
+
+figure {
+  margin: 10px;
+}
+figure img {
+  width: 100%;
+  height: auto;
 }
